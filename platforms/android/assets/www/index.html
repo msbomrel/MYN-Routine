@@ -2,40 +2,127 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
-
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
-
+    <!--<meta http-equiv="Content-Security-Policy"/>-->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes, width=device-width">
     <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
 
-    <!-- your app's js -->
+    <script src="cordova.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/ngStorage.js"></script>
+    <script src="js/tabletop.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"></script>
+    <script src="js/factory.js"></script>
+    <script src="js/controller.js"></script>
+    <link href="Materials/angular-material.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
-  <body ng-app="starter">
-    <!--
-      The nav bar that will be updated as we navigate between views.
-    -->
-    <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
-    </ion-nav-bar>
-    <!--
-      The views will be rendered in the <ion-nav-view> directive below
-      Templates are in the /templates folder (but you could also
-      have templates inline in this html file if you'd like).
-    -->
-    <ion-nav-view></ion-nav-view>
-  </body>
+
+<body id="mohan" ng-app="routineApp" ng-controller="GlobalController"  class="demo" ng-cloak="true" ng-init="">
+<div ng-controller="sideController">
+<div ng-controller="tabCtrl">
+  <md-toolbar scroll>
+  <div class="md-toolbar-tools">
+    <b>MYN Routine  {{semester}} </b>
+    <span flex> </span>
+    <md-button ng-click="openRightMenu()" class="md-icon-button" aria-label="Settings">
+      <md-icon md-svg-icon="img/menu.svg"></md-icon>
+    </md-button>
+  </div>
+  <md-tabs class="md-primary" md-no-pagination="true" md-selected="selectedIndex">
+    <md-tab id="tab1">
+      <all-tabs class="demo-tab">
+        MON
+      </all-tabs>
+    </md-tab>
+    <md-tab id="tab2">
+      <all-tabs class="demo-tab">
+        TUE
+      </all-tabs>
+    </md-tab>
+    <md-tab id="tab3">
+      <all-tabs class="demo-tab">
+        WED
+      </all-tabs>
+    </md-tab>
+    <md-tab id="tab4">
+      <all-tabs class="demo-tab">
+        THU
+      </all-tabs>
+    </md-tab>
+    <md-tab id="tab5">
+      <all-tabs class="demo-tab">
+        FRI
+      </all-tabs>
+    </md-tab>
+  </md-tabs>
+</md-toolbar>
+
+    <div layout="column" flex>
+      <md-sidenav style="overflow-y: scroll" layout="column"  md-is-locked-open="false"
+                  class="md-sidenav-right md-whiteframe-z2"
+                  md-component-id="right" layout-fill style="height:500px;"  scroll>
+        <md-toolbar class="md-theme-indigo" layout-padding="">
+          <h1 class="md-display-1" class="md-toolbar-tools">MYN Routine</h1>
+        </md-toolbar>
+
+        <div ng-controller="GlobalController">
+          <md-input-container class="md-block" layout-align="center center" style="min-height: 300px;">
+            <label><h2>Your Batch</h2> </label>
+            <!--<md-select name="repeatSelect" id="repeatSelect" ng-model="data.repeatSelect">
+              <md-option ng-repeat="option in data.availableOptions" value="option.id">{{option.id}} {{option.name}}</md-option>-->
+            <md-select ng-model="someVal" ng-change="selectChanged()">
+              <md-option  value="1">2016 A</md-option>
+              <md-option  value="2">2016 B</md-option>
+              <md-option  value="3">2017 A</md-option>
+              <md-option  value="4">2017 B</md-option>
+              <md-option  value="5">2018 A</md-option>
+              <md-option  value="6">2018 B</md-option>
+              <md-option  value="7">2019 A</md-option>
+              <md-option  value="8">2019 B</md-option>
+            </md-select>
+          </md-input-container>
+          <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <md-button class="btn1" ng-click="update()"><b>UPDATE</b></md-button>
+          </section>
+          <md-divider ng-if="!$last"></md-divider>
+          <div layout="row" layout-align="center center">
+            <h4>Developers:</h4><br>
+            <h5>Mohan, Yasin & Nikita </h5></div>
+          <md-divider ng-if="!$last"></md-divider>
+        <footer>
+          <div layout="row" layout-align="center center">
+            <md-list>Developed by: Software Club</md-list>
+          </div>
+        </footer>
+      </md-sidenav>
+      </div>
+</div>
+<div id="content"  ui-view flex md-swipe-left="onSwipeLeft()" md-swipe-right="onSwipeRight()">
+
+</div>
+    </div>
+
+<script type = "text/javascript">
+
+  function show() {
+    document.getElementById("mohan").style.display="block";
+    setTimeout("hide()", 10000);  // 5 seconds
+  }
+
+  function hide() {
+    document.getElementById("mohan").style.display="none";
+  }
+
+</script>
+<!--angular material(for the better styles)-->
+<script src="lib/ionic/js/ionic.bundle.js"></script>
+<script src="Materials/angular-touch.js"></script>
+<script src="Materials/angular-ui-router.js"></script>
+<script src="Materials/angular-animate.js"></script>
+<script src="Materials/angular-aria.min.js"></script>
+<script src="Materials/angular-material.min.js"></script>
+
+</body>
+
 </html>

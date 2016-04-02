@@ -1,0 +1,21 @@
+<div ng-controller="GlobalController" layout="row">
+  <div flex>
+    <div class="demo-swipe">
+    <md-card>
+      <h1>TUESDAY</h1>
+      <div ng-repeat="sub in subjects">
+        <md-list-item>
+          <div class="md-6-line" class="md-padding">
+            <br>
+            <b>{{sub.Time}}</b><br><b>{{sub.Tuesday}}</b>
+            <br>
+            <br>
+          </div>
+          <md-divider ng-if="!$last"></md-divider>
+        </md-list-item>
+      </div>
+    </md-card>
+  </div>
+</div>
+</div>
+

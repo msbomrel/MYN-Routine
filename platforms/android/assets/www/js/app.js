@@ -1,85 +1,109 @@
-// Ionic Starter App
+var app=angular
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.services' is found in services.js
-// 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+  .module('routineApp',['ionic','ngStorage','ui.router','myFactory','myController','ngMaterial'])
 
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
-    if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-      cordova.plugins.Keyboard.disableScroll(true);
-
+  .run(function($rootScope, $ionicPlatform){
+  $ionicPlatform.registerBackButtonAction(function(e){
+    if ($rootScope.backButtonPressedOnceToExit) {
+      ionic.Platform.exitApp();
     }
-    if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
+    else {
+      $rootScope.backButtonPressedOnceToExit = true;
+      ionic.Platform.exitApp();
+      setTimeout(function(){
+        $rootScope.backButtonPressedOnceToExit = false;
+      },100);
     }
-  });
+    e.preventDefault();
+    return false;
+  },101);
+
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+  .config(function($stateProvider, $urlRouterProvider){
+      $urlRouterProvider.otherwise('/');
 
-  // Ionic uses AngularUI Router which uses the concept of states
-  // Learn more here: https://github.com/angular-ui/ui-router
-  // Set up the various states which the app can be in.
-  // Each state's controller can be found in controllers.js
-  $stateProvider
-
-  // setup an abstract state for the tabs directive
-    .state('tab', {
-    url: '/tab',
-    abstract: true,
-    templateUrl: 'templates/tabs.html'
+      $stateProvider
+      .state('day1', {
+        url: "/day1",
+        templateUrl: "templates/monday.html"
+      })
+      .state('day2', {
+        url: "/day2",
+        templateUrl: "templates/tuesday.html"
+      })
+      .state('day3', {
+        url: "/day3",
+        templateUrl: "templates/wednesday.html"
+      })
+      .state('day4', {
+        url: "/day4",
+        templateUrl: "templates/thursday.html"
+      })
+      .state('day5', {
+        url: "/day5",
+        templateUrl: "templates/friday.html"
+      })
+    ;
   })
 
-  // Each tab has its own nav history stack:
+  .controller('tabCtrl', function($scope, $location) {
+      var d= new Date();
+      var n= d.getDay();
+    $scope.selectedIndex = n - 1;
 
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+    $scope.onSwipeRight = function (){
+      if ($scope.selectedIndex < 4){
+        $scope.selectedIndex  = $scope.selectedIndex + 1;
+      }
+      // if you want to make all the tour
+      else{
+        $scope.selectedIndex  = 0;
       }
     }
+
+    $scope.onSwipeLeft = function () {
+
+      if ($scope.selectedIndex > 0){
+        $scope.selectedIndex  = $scope.selectedIndex - 1;
+      }
+      // if you want to make all the tour
+      else {
+        $scope.selectedIndex  = 4;
+      }
+    }
+    $scope.$watch('selectedIndex', function(current) {
+      switch (current) {
+        case 0:
+          $location.url("/day1");
+          break;
+        case 1:
+          $location.url("/day2");
+          break;
+        case 2:
+          $location.url("/day3");
+          break;
+        case 3:
+          $location.url("/day4");
+          break;
+        case 4:
+          $location.url("/day5");
+          break;
+      }
+    });
   })
 
-  .state('tab.chats', {
-      url: '/chats',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
-    })
-
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
-      }
-    }
-  });
-
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
-
-});
+  .controller('sideController', function($scope, $mdSidenav,$log) {
+  $scope.openRightMenu = function() {
+      var d= new Date();
+      var n= d.getDay();
+    $mdSidenav('right').toggle()
+      .then(function () {
+        $log.debug("Toggle is trigerred");
+      })
+      .then(function () {
+          $log.debug(n);
+      });
+  };
+})
+;
