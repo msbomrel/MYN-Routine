@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!--<meta http-equiv="Content-Security-Policy"/>-->
+    <meta http-equiv="Content-Security-Policy"/>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes, width=device-width">
     <!-- cordova script (this will be a 404 during development) -->
+    <link href="Materials/angular-material.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <script src="cordova.js"></script>
     <script src="js/angular.js"></script>
@@ -13,9 +15,6 @@
     <script src="js/app.js"></script>
     <script src="js/factory.js"></script>
     <script src="js/controller.js"></script>
-    <link href="Materials/angular-material.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-
   </head>
 
 <body id="mohan" ng-app="routineApp" ng-controller="GlobalController"  class="demo" ng-cloak="true" ng-init="">
@@ -25,6 +24,9 @@
   <div class="md-toolbar-tools">
     <b>MYN Routine  {{semester}} </b>
     <span flex> </span>
+    <md-button ng-click="showDialog()" class="md-icon-button">
+      <md-icon md-svg-icon="img/web.svg"></md-icon> </md-button>
+
     <md-button ng-click="openRightMenu()" class="md-icon-button" aria-label="Settings">
       <md-icon md-svg-icon="img/menu.svg"></md-icon>
     </md-button>
@@ -86,13 +88,12 @@
             <md-button class="btn1" ng-click="update()"><b>UPDATE</b></md-button>
           </section>
           <md-divider ng-if="!$last"></md-divider>
-          <div layout="row" layout-align="center center">
-            <h4>Developers:</h4><br>
-            <h5>Mohan, Yasin & Nikita </h5></div>
-          <md-divider ng-if="!$last"></md-divider>
+          <!--<div layout="column" layout-align="center center">
+            <h5><b>Developers: Mohan, Yasin</b></h5>
+              <h5><b>Designer: Nikita</b></h5></div>-->
         <footer>
-          <div layout="row" layout-align="center center">
-            <md-list>Developed by: Software Club</md-list>
+          <div layout="column" layout-align="center center">
+            <md-list><b>Developed by: Software Club</b></md-list>
           </div>
         </footer>
       </md-sidenav>
@@ -103,18 +104,6 @@
 </div>
     </div>
 
-<script type = "text/javascript">
-
-  function show() {
-    document.getElementById("mohan").style.display="block";
-    setTimeout("hide()", 10000);  // 5 seconds
-  }
-
-  function hide() {
-    document.getElementById("mohan").style.display="none";
-  }
-
-</script>
 <!--angular material(for the better styles)-->
 <script src="lib/ionic/js/ionic.bundle.js"></script>
 <script src="Materials/angular-touch.js"></script>
