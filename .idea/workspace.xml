@@ -4,148 +4,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="995fe697-5306-4283-88cb-d1f764f6a7bd" name="Default" comment="changes in about us and">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/DWIT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/sidenav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/toast-template.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/AuthenticationToken.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/AuthenticationToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CallbackContext.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CallbackContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/Config.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ConfigXmlParser.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ConfigXmlParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$3.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$4$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$4.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaArgs.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaArgs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaBridge.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaBridge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaClientCertRequest.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaClientCertRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$3.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$4.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$5.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$6.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$7.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$8.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$9.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$Result.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper$Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaDialogsHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaHttpAuthHandler.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaHttpAuthHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaInterface.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaInterfaceImpl.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaInterfaceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaPlugin.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaPreferences.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaResourceApi.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaResourceApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebView.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewEngine$Client.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewEngine$Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewEngine$EngineView.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewEngine$EngineView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewEngine.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$3.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CordovaWebViewImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$3.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$4.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$5.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/CoreAndroid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ExposedJsApi.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ExposedJsApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ICordovaClientCertRequest.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ICordovaClientCertRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ICordovaCookieManager.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ICordovaCookieManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ICordovaHttpAuthHandler.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/ICordovaHttpAuthHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/LOG.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/LOG.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/NativeToJsMessageQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginEntry.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginManager.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginResult$Status.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginResult$Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginResult.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/PluginResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/Whitelist$URLPattern.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/Whitelist$URLPattern.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/Whitelist.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/Whitelist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemCookieManager.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemCookieManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemExposedJsApi.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemExposedJsApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$3.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$4.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$5.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebChromeClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebView.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewClient.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewEngine$1.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewEngine$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewEngine$2.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewEngine$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewEngine.class" afterPath="$PROJECT_DIR$/out/production/CordovaLib/org/apache/cordova/engine/SystemWebViewEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/android.apk" afterPath="$PROJECT_DIR$/out/production/android/android.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/android.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/android/android.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/BuildConfig.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$attr.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$string.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$xml.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R.class" afterPath="$PROJECT_DIR$/out/production/android/com/ionicframework/mynroutine130412/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$1.class" afterPath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$2.class" afterPath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$3$1.class" afterPath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$3.class" afterPath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard.class" afterPath="$PROJECT_DIR$/out/production/android/io/ionic/keyboard/IonicKeyboard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$attr.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$string.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$xml.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/device/Device.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/device/Device.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$1.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$2.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$3$1.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$3.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$4$1.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$4.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$5$1.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$5.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$6.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/splashscreen/SplashScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/whitelist/WhitelistPlugin$1.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/whitelist/WhitelistPlugin$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/whitelist/WhitelistPlugin$CustomConfigXmlParser.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/whitelist/WhitelistPlugin$CustomConfigXmlParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/android/org/apache/cordova/whitelist/WhitelistPlugin.class" afterPath="$PROJECT_DIR$/out/production/android/org/apache/cordova/whitelist/WhitelistPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="995fe697-5306-4283-88cb-d1f764f6a7bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.iml" afterPath="$PROJECT_DIR$/platforms/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/friday.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/friday.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/monday.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/monday.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/thursday.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/thursday.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/tuesday.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/tuesday.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/wednesday.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/wednesday.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/cordova-plugin-device.iml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/cordova-plugin-device.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/cordova-plugin-splashscreen.iml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/cordova-plugin-splashscreen.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/cordova-plugin-whitelist.iml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/cordova-plugin-whitelist.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ionic-plugin-keyboard.iml" afterPath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ionic-plugin-keyboard.iml" />
     </list>
     <ignored path="MYN-Routine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -201,7 +61,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="1708">
               <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
               <folding />
             </state>
@@ -916,12 +776,20 @@
       <updated>1459660408922</updated>
       <workItem from="1459660411832" duration="9951000" />
       <workItem from="1459747557003" duration="635000" />
-      <workItem from="1459764444088" duration="9464000" />
+      <workItem from="1459764444088" duration="9646000" />
     </task>
+    <task id="LOCAL-00001" summary="changes in about us and">
+      <created>1459776583982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459776583982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20050000" />
+    <option name="totallyTimeSpent" value="20232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="747" extended-state="6" />
@@ -1247,7 +1115,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="1708">
           <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
           <folding />
         </state>
