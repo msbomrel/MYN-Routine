@@ -52,7 +52,7 @@ var app = angular
         var n = d.getDay();
         $scope.selectedIndex = n - 1;
 
-        $scope.onSwipeRight = function () {
+        $scope.onSwipeLeft = function () {
             if ($scope.selectedIndex < 4) {
                 $scope.selectedIndex = $scope.selectedIndex + 1;
             }
@@ -62,7 +62,7 @@ var app = angular
             }
         }
 
-        $scope.onSwipeLeft = function () {
+        $scope.onSwipeRight = function () {
 
             if ($scope.selectedIndex > 0) {
                 $scope.selectedIndex = $scope.selectedIndex - 1;

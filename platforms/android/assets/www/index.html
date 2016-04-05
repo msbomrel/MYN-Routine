@@ -69,10 +69,8 @@
         </md-toolbar>
 
         <div ng-controller="GlobalController">
-          <md-input-container class="md-block" layout-align="center center" style="min-height: 300px;">
+          <md-input-container class="md-block" layout-align="center center" style="min-height: 175px;">
             <label><h2>Your Batch</h2> </label>
-            <!--<md-select name="repeatSelect" id="repeatSelect" ng-model="data.repeatSelect">
-              <md-option ng-repeat="option in data.availableOptions" value="option.id">{{option.id}} {{option.name}}</md-option>-->
             <md-select ng-model="someVal" ng-change="selectChanged()">
               <md-option  value="1">2016 A</md-option>
               <md-option  value="2">2016 B</md-option>
@@ -85,15 +83,14 @@
             </md-select>
           </md-input-container>
           <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <h5>Please click update to get the Routine !</h5>
             <md-button class="btn1" ng-click="update()"><b>UPDATE</b></md-button>
           </section>
           <md-divider ng-if="!$last"></md-divider>
-          <!--<div layout="column" layout-align="center center">
-            <h5><b>Developers: Mohan, Yasin</b></h5>
-              <h5><b>Designer: Nikita</b></h5></div>-->
         <footer>
           <div layout="column" layout-align="center center">
-            <md-list><b>Developed by: Software Club</b></md-list>
+            <md-list><b>Developed by: Software Club</b><br>
+            Icons by: www.flaticon.com</md-list>
           </div>
         </footer>
       </md-sidenav>
